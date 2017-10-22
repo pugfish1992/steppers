@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Active Title -->
+    <style name="VerticalStepperActiveTitleAppearance">
+        <item name="android:textColor">@color/vertical_stepper_active_title</item>
+        <item name="android:fontFamily">@string/vertical_stepper_active_text_font_family</item>
+        <item name="android:textSize">@dimen/vertical_stepper_title_size</item>
+    </style>
+    <!-- Inactive Title -->
+    <style name="VerticalStepperInactiveTitleAppearance">
+        <item name="android:fontFamily">@string/vertical_stepper_inactive_text_font_family</item>
+        <item name="android:textColor">@color/vertical_stepper_inactive_title</item>
+        <item name="android:textSize">@dimen/vertical_stepper_title_size</item>
+    </style>
+    <!-- Active Sub Title -->
+    <style name="VerticalStepperActiveSubTitleAppearance">
+        <item name="android:fontFamily">@string/vertical_stepper_active_text_font_family</item>
+        <item name="android:textColor">@color/vertical_stepper_active_sub_title</item>
+        <item name="android:textSize">@dimen/vertical_stepper_sub_title_size</item>
+    </style>
+    <!-- Inactive Sub Title -->
+    <style name="VerticalStepperInactiveSubTitleAppearance">
+        <item name="android:fontFamily">@string/vertical_stepper_inactive_text_font_family</item>
+        <item name="android:textColor">@color/vertical_stepper_inactive_sub_title</item>
+        <item name="android:textSize">@dimen/vertical_stepper_sub_title_size</item>
+    </style>
+</resources>

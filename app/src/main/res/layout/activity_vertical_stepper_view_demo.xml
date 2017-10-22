@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.f_candy_d.steppers.VerticalStepperViewDemoActivity">
+
+    <com.f_candy_d.verticalsteppers.VerticalStepper
+        android:id="@+id/vertical_stepper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/app_name"
+        app:subTitle="@string/appbar_scrolling_view_behavior"
+        app:circleTextLabel="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/toggle_circle_size_mode_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toggle circle size"/>
+
+        <Button
+            android:id="@+id/toggle_active_mode_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toggle active mode"/>
+
+        <Button
+            android:id="@+id/toggle_check_mode_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toggle check mode"/>
+
+        <Button
+            android:id="@+id/toggle_all_modes_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toggle all modes"/>
+
+    </LinearLayout>
+</RelativeLayout>

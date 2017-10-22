@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalStepperView">
+        <!-- Title -->
+        <attr name="title" format="string"/>
+        <attr name="activeTitleColor" format="color"/>
+        <attr name="inactiveTitleColor" format="color"/>
+        <!-- Sub Title -->
+        <attr name="subTitle" format="string"/>
+        <attr name="activeSubTitleColor" format="color"/>
+        <attr name="inactiveSubTitleColor" format="color"/>
+        <!-- Circle -->
+        <attr name="circleSize" format="enum">
+            <enum name="small" value="0"/>
+            <enum name="regular" value="1"/>
+        </attr>
+        <!-- Circle (bg) -->
+        <attr name="activeCircleBackgroundColor" format="color"/>
+        <attr name="inactiveCircleBackgroundColor" format="color"/>
+        <!-- Circle (text label) -->
+        <attr name="circleTextLabel" format="string"/>
+        <attr name="circleTextLabelTint" format="color"/>
+        <!-- Circle (icon label) -->
+        <attr name="circleIconLabel" format="reference"/>
+        <attr name="circleIconLabelTint" format="color"/>
+        <!-- Content -->
+        <attr name="contentViewLayout" format="reference"/>
+        <!-- Connection Line -->
+        <attr name="connectionLineColor" format="color"/>
+        <!-- Step Mode -->
+        <attr name="activateStepByDefault" format="boolean"/>
+        <attr name="checkStepByDefault" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TwoFacedViewLayoutBase">
+        <attr name="firstViewLayout" format="reference"/>
+        <attr name="secondViewLayout" format="reference"/>
+        <attr name="showSecondViewByDefault" format="boolean"/>
+    </declare-styleable>
+</resources>

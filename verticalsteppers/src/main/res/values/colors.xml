@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="google_blue">#4885ED</color>
+    <!-- Title -->
+    <color name="vertical_stepper_active_title">#212121</color>
+    <color name="vertical_stepper_inactive_title">#616161</color>
+    <!-- Sub Title -->
+    <color name="vertical_stepper_active_sub_title">#555555</color>
+    <color name="vertical_stepper_inactive_sub_title">#949494</color>
+    <!-- Circle (bg) -->
+    <color name="vertical_stepper_active_circle_background">@color/google_blue</color>
+    <color name="vertical_stepper_inactive_circle_background">#BDBDBD</color>
+    <!-- Circle (text label) -->
+    <color name="vertical_stepper_circle_text_label_tint">#FFFFFF</color>
+    <!-- Circle (icon label) -->
+    <color name="vertical_stepper_circle_icon_label_tint">#FFFFFF</color>
+    <!-- Connection Line -->
+    <color name="vertical_stepper_connection_line">#BDBDBD</color>
+</resources>

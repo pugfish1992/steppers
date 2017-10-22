@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VerticalSteppers</string>
+    <string name="vertical_stepper_active_text_font_family">sans-serif-medium</string>
+    <string name="vertical_stepper_inactive_text_font_family">sans-serif</string>
+</resources>
